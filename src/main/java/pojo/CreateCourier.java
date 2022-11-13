@@ -1,7 +1,6 @@
 package pojo;
 
 public class CreateCourier {
-    private static final String COURIER = "steps";
     private String login;
     private String password;
     private String firstName;
@@ -26,9 +25,6 @@ public class CreateCourier {
         this.login = login;
     }
 
-//    public String getFirstName() {
-//        return firstName;
-//    }
 
     public void setFirstName(String firstName) {
 
